@@ -1,51 +1,51 @@
 export class User{
     constructor(
-    private id: string,
-    private name: string,
-    private email: string,
-    private password: string,
-    private role: UserRole
+    public id: string,
+    public name: string,
+    public email: string,
+    public password: string,
+    public role: UserRole
     ){}
 
-    getId(){
-        return this.id;
-    }
+    // getId(){
+    //     return this.id;
+    // }
 
-    getName(){
-        return this.name
-    }
+    // getName(){
+    //     return this.name
+    // }
 
-    getEmail(){
-        return this.email;
-    }
+    // getEmail(){
+    //     return this.email;
+    // }
 
-    getPassword(){
-        return this.password;
-    }
+    // getPassword(){
+    //     return this.password;
+    // }
 
-    getRole(){
-        return this.role;
-    }
+    // getRole(){
+    //     return this.role;
+    // }
 
-    setId(id: string){
-        this.id = id;
-    }
+    // setId(id: string){
+    //     this.id = id;
+    // }
 
-    setName(name: string){
-        this.name = name;
-    }
+    // setName(name: string){
+    //     this.name = name;
+    // }
 
-    setEmail(email: string){
-        this.email = email;
-    }
+    // setEmail(email: string){
+    //     this.email = email;
+    // }
 
-    setPassword(password: string){
-        this.password = password;
-    }
+    // setPassword(password: string){
+    //     this.password = password;
+    // }
 
-    setRole(role: UserRole){
-        this.role = role;
-    }
+    // setRole(role: UserRole){
+    //     this.role = role;
+    // }
 
    static stringToUserRole(input: string): UserRole{
         switch (input) {
