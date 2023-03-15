@@ -81,3 +81,6 @@ export enum UserRole{
     NORMAL = "NORMAL",
     ADMIN = "ADMIN"
 }
+export interface AuthenticationData {
+    id: string;
+  }
